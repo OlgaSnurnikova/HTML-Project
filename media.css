@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .main_image{
+        display: none;
+    }
+    .background_image{
+        display: none;
+    }
+    .introduction{
+        justify-content: center;
+        margin: 10px 32px;
+    }
+    .introduction_info{
+        margin: 0;
+    }
+    .introduction_header{
+        font-size: 60px;
+        line-height: 64px;
+        color: var(--dark-blue-color);
+        width: 100%;
+        height: auto;
+    }
+    .additional_info{
+        font-size: 22px;
+        line-height: 32px;
+        color: #375361;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .center_text{
+        margin-top: 12px;
+    }
+}
